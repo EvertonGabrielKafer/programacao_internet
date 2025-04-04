@@ -1,0 +1,46 @@
+h1{
+    margin-left: 40%;
+}
+h2{
+    margin-left: 48%;
+}
+.tabela1{
+    width: 600px;
+    background-color: #C7E7F3;
+}
+.linha1{
+    color: white;
+    background-color: #0D5188;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 2px;
+}
+.linha2{
+    background-color: #66C5E3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 2px;
+}
+.linha3e4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 2px;
+}
+.cidades{
+    color: #0D5188;
+    padding: 2px;
+}
+.posicao{
+    background-color: silver;
+    width: 10%;
+}
+.populacao{
+    width: 15%;
+    text-align: center;
+}
+.padding{
+    padding: 2px;
+}
+
+/*-----------------------------------------------*/
+

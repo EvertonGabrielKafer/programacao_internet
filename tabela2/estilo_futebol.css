@@ -1,0 +1,81 @@
+.tabela2{
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #dddddd;
+}
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+.th5{
+    border-top: 2px solid #dddddd;;
+}
+.clasazulm{
+    color: #003366;
+    font-size: 18px;
+
+}
+.clasazulc{
+    color: #1398BE;
+    font-size: 18px;
+}
+.clasla{
+    color: #de9800;
+    font-size: 18px;
+}
+.clascin{
+    color: #cccccc;
+    font-size: 18px;
+}
+.clasver{
+    color: #c91b04;
+    font-size: 18px;
+}
+.tr1{
+    font-size: 13px;
+    color: #999999;
+}
+.time{
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+}
+.lg1{
+    text-align: left;
+    font-size: 10px;
+}
+.p1{
+    color: #8f8f8f;
+}
+.p2{
+    color: #555555;
+    margin-top: -4%;
+}
+.cor{
+    background-color: #f7f7f7;
+}
+.cor1{
+    background-color: #f7f7f7;
+    font-size: 14px;
+}
+.p{
+    padding: 1px;
+}
+.j{
+    padding: 6px;
+}
+.v{
+    padding: 6px;
+}
+.e{
+    padding: 6px;
+}
+.d{
+    padding: 6px;
+}
