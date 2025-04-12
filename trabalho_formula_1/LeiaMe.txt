@@ -1,0 +1,19 @@
++-------------------------------------------------------+
+|                                                       |
+|                Trabalho realizado por:                |
+|                                                       |
+|           Everton Gabriel Käfer   60008892            |
+|              Anderson Wiliam   60005539               |
+|                                                       |
+|         Análise e Desenvolvimento de Sistemas         |
+|                                                       |
+|                                                       |
+|                                                       |
+|                                                       |
+|             Fonte dos dados das tabelas:              |
+|                                                       |
+|       https://www.espn.com.br/f1/classificacao        |
+|                                                       |
+|                                                       |
+|                                                       |
++-------------------------------------------------------+
