@@ -1,0 +1,140 @@
+h1,h2,h3,p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(200, 200, 200);
+}
+input, select{
+    border: solid black 1px;
+    height: 30px;
+    border: solid rgb(32, 121, 255) 2px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.divNomes{
+    position:relative;
+    top: 30px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(17, 34, 60);;
+    border-radius: 30px;
+    height: 160px;
+}
+.espacamento{
+    position:relative;
+    top: 20px;
+}
+.btnAtiv{
+    border: solid rgb(0, 39, 147) 0px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #0700b8, #00ff88, #0700b8, #00ff88);
+    color: white;
+    cursor: pointer;
+    width: 140px;
+    height: 45px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+
+    /*---*/
+    transition: all .4s ease-in-out;
+    background-size: 350% 100%;
+    /*---*/
+
+    margin: 20px;
+}
+.btnAtiv:hover {
+    background-position: 100% 0;
+    animation-name: flow;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.divIndex{
+    position:relative;
+    top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(17, 34, 60);
+    border-radius: 30px;
+    height: 54%;
+}
+
+.div1{
+    position:relative;
+    top: 10px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(17, 34, 60);
+    border-radius: 30px;
+    height: 80%;
+}
+.div1a{
+    position:relative;
+    top: 10px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(17, 34, 60);
+    border-radius: 30px;
+    height: 460px;
+}
+.resultado{
+    color: #00900a;
+}
+.resultado-verde {
+    color: green;
+}
+.div2{
+    margin: 0 auto;
+    width:fit-content;
+}
+.posicaoBotoes{
+    margin: 0 auto;
+    width:fit-content;
+}
+.btnVoltar{
+    transition: all 0.4s linear;
+    border: solid rgb(0, 39, 147) 2px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background: #554fff;
+    color: white;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px ;
+}
+.btnVoltar:hover {
+    transform: translateX(-15px);
+  
+}
+.btnCalcular{
+    
+    border: solid rgb(17, 34, 60) 2px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background: #1ada27;
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px ;
+}
+.btnCalcular:hover{
+    background: #13a31d;
+    border-color: #1ada27;
+}
+
+/*================================================*/
+@keyframes flow {
+            0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+        }

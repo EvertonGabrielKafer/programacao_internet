@@ -1,0 +1,41 @@
+<head>
+    <title>Trabalho 2° Bimestre</title>
+    <link rel="stylesheet" href="../estilo.css" type="text/css">
+    <link rel="stylesheet" href="../reset.css" type="text/css">
+</head>
+<body>
+    
+        <button class="btnVoltar" onclick="window.location.href='../index.html'">Voltar</button>
+
+
+    <div class="div1">
+        <div class="espacamento">
+        <h1>Ativ 6</h1>
+        <h2>Pedido de lanchonete:</h2>
+
+        <div class="div2">
+        <select id="lancheSelect">
+            <optgroup label="Lanches:">
+                <option value="11">Cachorro quente</option>
+                <option value="8.50">Bauru</option>
+                <option value="8">Misto quente</option>
+                <option value="9">Hamburguer</option>
+                <option value="10">Cheeseburguer</option>
+                <option value="4.50">Refrigerante</option>
+            </optgroup>
+        </select>
+        <input id="quantidadeLanche" type="number" placeholder="Quantidade de lanches:">
+
+        <button id="btnCalculo6" class="btnCalcular">Calcular</button>
+        </div>
+
+        <h3>Valor a ser pago:</h3>
+        <h3 class="resultado" id="valorFinalLanche"></h3>
+        </div>
+    </div>
+
+</body>
+
+    <script src="../script.js"></script>
+
+</html>
